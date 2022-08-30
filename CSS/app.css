@@ -90,7 +90,7 @@ main section article {
   /* height: 20px; */
   min-width: 100%;
   border-radius: 10px;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
 }
 input {
   border-radius: 4px;
@@ -99,7 +99,7 @@ label .mensagem {
   height: 20px;
 }
 .mensagem {
-  width: 500px;
+  width: 400px;
   height: 200px;
   border-radius: 10px;
 }
@@ -132,5 +132,12 @@ button:focus {
   }
   input {
     display: flexbox;
+  }
+  .formulario div form{
+    display: inline-block;
+    max-width: 100%;
+  }
+  main section article{
+    display: inline-block;
   }
 }
